@@ -8,11 +8,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <img src={solaIcon} alt="Sola Wood Flowers" className="w-8 h-8 text-foreground" />
-            <div className="text-2xl font-juana font-normal text-primary">
-              Sola Wood Flowers
-            </div>
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/91a040e2-97d7-429f-86cf-3c6d19da984a.png" 
+              alt="Sola Wood Flowers" 
+              className="h-8 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
