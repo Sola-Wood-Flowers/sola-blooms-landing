@@ -6,19 +6,19 @@ const categories = [
   {
     title: "Classic Wreaths",
     description: "22\" wreaths handcrafted entirely from 3-inch natural wood dahlia flowers, bringing soft, neutral charm to any space.",
-    image: "/lovable-uploads/632f147a-50d0-40bc-a563-dd288bd9d2c7.png",
+    image: "/lovable-uploads/ee881b33-e91d-4a50-bbcd-b5ab78e85b2a.png",
     colors: ["Cream", "Natural", "Sage", "Terracotta"],
   },
   {
     title: "Timeless Decor Wreaths",
     description: "Versatile wreaths in neutral charm and natural varieties, perfect for year-round decoration and seasonal displays.",
-    image: "/lovable-uploads/e45ade1e-736f-437d-9c05-286528192260.png",
+    image: "/lovable-uploads/8bbc4055-fa3b-479e-981e-68ae98884a1f.png",
     colors: ["Neutral", "Natural", "Mixed"],
   },
   {
     title: "Specialty Wreaths",
     description: "Unique designs including Pink Roses and Monochromatic styles for those seeking distinctive decorative pieces.",
-    image: "/lovable-uploads/d8720b43-6819-4f61-b2db-b7e0d0da7cd3.png",
+    image: "/lovable-uploads/7a7e0e96-110b-4b46-9ff0-a5e63bbaee3b.png",
     colors: ["Pink", "Rose", "Cream", "Green"],
   },
   {
@@ -30,13 +30,13 @@ const categories = [
   {
     title: "Vase Arrangements",
     description: "Stunning floral arrangements in sleek vases, featuring both asymmetric modern designs and natural greenery compositions.",
-    image: "/lovable-uploads/98955ce6-2a04-45b1-aa33-bed120fcf09d.png",
+    image: "/lovable-uploads/89d34718-8ba5-4ac6-8d59-f177332d82bc.png",
     colors: ["Black", "White", "Natural", "Green"],
   },
   {
     title: "Deluxe Bouquets",
     description: "Large deluxe bouquets with 12 sola flowers, featuring wild roses and preserved greenery, carefully wrapped in craft paper.",
-    image: "/lovable-uploads/258677a7-3af2-4814-8112-3cd7dfe0f6ce.png",
+    image: "/lovable-uploads/bf65491f-dcf4-4cfd-b347-1f48e604850b.png",
     colors: ["Dorothy", "Sunflower", "Mixed"],
   },
 ];
