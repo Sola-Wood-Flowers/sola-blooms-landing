@@ -24,7 +24,7 @@ const categories = [
   {
     title: "Elegant Garlands",
     description: "6ft long eucalyptus garlands with mixed core flowers in fall/winter colors, perfect for mantelpieces and doorways.",
-    image: "/lovable-uploads/dbebf594-ff78-4ec4-a8a3-65fbbfe86646.png",
+    image: "/lovable-uploads/b3d90f08-7b35-49cc-87b6-92a2ca6a8dfd.png",
     colors: ["Soft Pink", "Eucalyptus", "Natural"],
   },
   {
