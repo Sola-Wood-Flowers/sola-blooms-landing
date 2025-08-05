@@ -39,6 +39,24 @@ const categories = [
     image: "/lovable-uploads/bf65491f-dcf4-4cfd-b347-1f48e604850b.png",
     colors: ["Dorothy", "Sunflower", "Mixed"],
   },
+  {
+    title: "Aromatic Potpourri",
+    description: "Decorative mix of dried flowers, herbs, and spices infused with pleasant scents, perfect for adding natural fragrance to any room.",
+    image: "/lovable-uploads/9322f8b3-b5c5-45ef-bf28-ea20e23860ed.png",
+    colors: ["Aromatic Oasis", "Silver Spice", "Mix Eucalyptus"],
+  },
+  {
+    title: "Preserved Greenery",
+    description: "Premium preserved natural elements including bunny tails, lavender, and eucalyptus for long-lasting floral arrangements.",
+    image: "/lovable-uploads/47719bbe-d0c4-44ca-b99d-a812e06154bd.png",
+    colors: ["Bunny Tails", "Lavender", "Satin Green"],
+  },
+  {
+    title: "Small Bouquets",
+    description: "Charming small bouquets with 3\" and 2\" sola flowers on wire stems, wrapped in polybag with satin ribbon as a simple touch.",
+    image: "/lovable-uploads/398cf722-734b-498e-92f8-817c64daf043.png",
+    colors: ["Soft Peach", "Soft Green", "Mixed"],
+  },
 ];
 
 const ProductCategories = () => {
