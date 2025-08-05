@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Menu, Phone, Mail } from "lucide-react";
+import solaIcon from "@/assets/sola-icon.svg";
 
 const Header = () => {
   return (
@@ -7,8 +8,9 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-primary">
+          <div className="flex items-center space-x-3">
+            <img src={solaIcon} alt="Sola Wood Flowers" className="w-8 h-8 text-foreground" />
+            <div className="text-2xl font-juana font-normal text-primary">
               Sola Wood Flowers
             </div>
           </div>

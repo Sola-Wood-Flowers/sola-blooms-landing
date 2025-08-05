@@ -62,10 +62,10 @@ const WholesaleInfo = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+          <h2 className="text-4xl md:text-5xl font-juana font-normal text-foreground mb-6">
             Wholesale Partnership Benefits
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl font-avenir text-muted-foreground max-w-3xl mx-auto">
             Join hundreds of successful retailers, event planners, and designers who trust 
             Sola Wood Flowers for their premium natural décor needs.
           </p>
@@ -92,7 +92,7 @@ const WholesaleInfo = () => {
 
         {/* Pricing Tiers */}
         <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center text-foreground mb-12">
+          <h3 className="text-3xl font-juana font-normal text-center text-foreground mb-12">
             Wholesale Pricing Tiers
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -118,7 +118,7 @@ const WholesaleInfo = () => {
                   </ul>
                   
                   <Button 
-                    variant={index === 1 ? "hero" : "sage"} 
+                    variant={index === 1 ? "hero" : "brand"} 
                     className="w-full"
                   >
                     Get Started
@@ -131,17 +131,17 @@ const WholesaleInfo = () => {
 
         {/* CTA */}
         <div className="text-center bg-background rounded-2xl p-12 shadow-soft">
-          <h3 className="text-3xl font-bold text-foreground mb-4">
+          <h3 className="text-3xl font-juana font-normal text-foreground mb-4">
             Ready to Start Your Wholesale Journey?
           </h3>
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-xl font-avenir text-muted-foreground mb-8 max-w-2xl mx-auto">
             Get access to our complete wholesale catalog, pricing, and exclusive dealer resources.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="elegant" size="lg">
               Request Wholesale Catalog
             </Button>
-            <Button variant="outline" size="lg">
+            <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
               Schedule Consultation
             </Button>
           </div>

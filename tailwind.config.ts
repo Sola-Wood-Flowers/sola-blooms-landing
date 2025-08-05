@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'juana': ['Juana', 'serif'],
+				'avenir': ['Avenir', 'sans-serif'],
+				'sans': ['Avenir', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +56,22 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				'frost-blue': {
+					DEFAULT: 'hsl(var(--frost-blue))',
+					foreground: 'hsl(var(--frost-blue-foreground))'
+				},
+				brown: {
+					DEFAULT: 'hsl(var(--brown))',
+					foreground: 'hsl(var(--brown-foreground))'
+				},
+				'flame-orange': {
+					DEFAULT: 'hsl(var(--flame-orange))',
+					foreground: 'hsl(var(--flame-orange-foreground))'
+				},
+				'olive-green': {
+					DEFAULT: 'hsl(var(--olive-green))',
+					foreground: 'hsl(var(--olive-green-foreground))'
 				},
 				sage: {
 					DEFAULT: 'hsl(var(--sage))',

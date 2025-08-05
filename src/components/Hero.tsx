@@ -23,13 +23,13 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-juana font-normal text-foreground mb-6 leading-tight">
             Timeless Beauty in
             <span className="block text-primary">Handcrafted Wood</span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl font-avenir text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Discover our exquisite collection of sola wood flowers, wreaths, and arrangements. 
             Perfect for wholesale buyers seeking elegant, sustainable floral solutions.
           </p>
@@ -40,7 +40,7 @@ const Hero = () => {
               Explore Wholesale Catalog
               <ArrowRight size={20} />
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4">
+            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
               Request Price List
             </Button>
           </div>

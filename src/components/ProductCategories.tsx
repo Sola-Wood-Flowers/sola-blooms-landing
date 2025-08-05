@@ -47,10 +47,10 @@ const ProductCategories = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+          <h2 className="text-4xl md:text-5xl font-juana font-normal text-foreground mb-6">
             Our Product Collections
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl font-avenir text-muted-foreground max-w-3xl mx-auto">
             Discover our comprehensive range of handcrafted sola wood flowers, perfect for 
             retailers, event planners, and designers seeking premium natural décor.
           </p>
@@ -90,7 +90,7 @@ const ProductCategories = () => {
                   </div>
                 </div>
 
-                <Button variant="sage" className="w-full group">
+                <Button variant="brand" className="w-full group">
                   View Collection
                   <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -102,10 +102,10 @@ const ProductCategories = () => {
         {/* CTA Section */}
         <div className="text-center mt-16">
           <div className="bg-card rounded-2xl p-8 shadow-soft">
-            <h3 className="text-2xl font-bold text-foreground mb-4">
+            <h3 className="text-2xl font-juana font-normal text-foreground mb-4">
               Need Custom Collections?
             </h3>
-            <p className="text-muted-foreground mb-6">
+            <p className="font-avenir text-muted-foreground mb-6">
               We create bespoke arrangements and custom color palettes for your specific wholesale needs.
             </p>
             <Button variant="hero" size="lg">
