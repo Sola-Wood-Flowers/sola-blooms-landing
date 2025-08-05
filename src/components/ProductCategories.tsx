@@ -48,7 +48,7 @@ const categories = [
   {
     title: "Preserved Greenery",
     description: "Premium preserved natural elements including bunny tails, lavender, and eucalyptus for long-lasting floral arrangements.",
-    image: "/lovable-uploads/47719bbe-d0c4-44ca-b99d-a812e06154bd.png",
+    image: "/lovable-uploads/c19a1096-4ef5-40a0-8967-41c35692edbc.png",
     colors: ["Bunny Tails", "Lavender", "Satin Green"],
   },
   {
