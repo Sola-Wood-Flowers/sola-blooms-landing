@@ -24,7 +24,7 @@ const categories = [
   {
     title: "Elegant Garlands",
     description: "6ft long eucalyptus garlands with mixed core flowers in fall/winter colors, perfect for mantelpieces and doorways.",
-    image: "/lovable-uploads/15778688-c241-4085-bc49-7f933b946b70.png",
+    image: "/lovable-uploads/dbebf594-ff78-4ec4-a8a3-65fbbfe86646.png",
     colors: ["Soft Pink", "Eucalyptus", "Natural"],
   },
   {
@@ -42,7 +42,7 @@ const categories = [
   {
     title: "Aromatic Potpourri",
     description: "Decorative mix of dried flowers, herbs, and spices infused with pleasant scents, perfect for adding natural fragrance to any room.",
-    image: "/lovable-uploads/9322f8b3-b5c5-45ef-bf28-ea20e23860ed.png",
+    image: "/lovable-uploads/8dcfbb3d-cc2f-4681-a319-87b57df5523e.png",
     colors: ["Aromatic Oasis", "Silver Spice", "Mix Eucalyptus"],
   },
   {
@@ -54,7 +54,7 @@ const categories = [
   {
     title: "Small Bouquets",
     description: "Charming small bouquets with 3\" and 2\" sola flowers on wire stems, wrapped in polybag with satin ribbon as a simple touch.",
-    image: "/lovable-uploads/398cf722-734b-498e-92f8-817c64daf043.png",
+    image: "/lovable-uploads/577b03e2-27d3-433a-b0ad-22cd07448976.png",
     colors: ["Soft Peach", "Soft Green", "Mixed"],
   },
 ];
