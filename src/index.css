@@ -2,41 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Sola Wood Flowers Design System - Natural, Elegant Aesthetic */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Natural Background Palette */
+    --background: 34 15% 95%;
+    --foreground: 25 25% 25%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Card Backgrounds - Soft Natural Tones */
+    --card: 35 20% 98%;
+    --card-foreground: 25 25% 25%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    /* Popover Elements */
+    --popover: 35 20% 98%;
+    --popover-foreground: 25 25% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary Brand - Deep Forest Green */
+    --primary: 140 35% 25%;
+    --primary-foreground: 35 20% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Warm Cream */
+    --secondary: 35 25% 90%;
+    --secondary-foreground: 25 30% 20%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted Tones - Soft Beige */
+    --muted: 35 15% 88%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Dusty Rose */
+    --accent: 15 25% 75%;
+    --accent-foreground: 25 30% 20%;
+
+    /* Additional Brand Colors */
+    --sage: 120 20% 65%;
+    --sage-foreground: 25 30% 20%;
+    
+    --terracotta: 15 45% 65%;
+    --terracotta-foreground: 35 20% 98%;
+    
+    --cream: 35 30% 92%;
+    --cream-foreground: 25 30% 20%;
+    
+    --wood: 25 35% 65%;
+    --wood-foreground: 35 20% 98%;
+
+    /* Gradients */
+    --gradient-natural: linear-gradient(135deg, hsl(35 25% 90%), hsl(35 15% 88%));
+    --gradient-sage: linear-gradient(135deg, hsl(120 20% 65%), hsl(140 35% 25%));
+    --gradient-warm: linear-gradient(135deg, hsl(25 35% 65%), hsl(15 45% 65%));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px hsl(25 25% 25% / 0.08);
+    --shadow-natural: 0 8px 32px hsl(140 35% 25% / 0.12);
+    --shadow-warm: 0 6px 24px hsl(15 45% 65% / 0.15);
+
+    /* Animations */
+    --transition-natural: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 35 15% 85%;
+    --input: 35 15% 85%;
+    --ring: 140 35% 25%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
