@@ -109,7 +109,7 @@ const ProductCategories = () => {
                 </div>
 
                 <Button variant="brand" className="w-full group">
-                  View Collection
+                  Contact Us
                   <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                 </Button>
               </CardContent>
