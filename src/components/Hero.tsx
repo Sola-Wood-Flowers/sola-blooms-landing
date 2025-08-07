@@ -28,7 +28,7 @@ const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl font-avenir text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl font-avenir text-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Discover our exquisite collection of sola wood flowers, wreaths, and arrangements. 
             Perfect for wholesale buyers seeking elegant, sustainable floral solutions.
           </p>
