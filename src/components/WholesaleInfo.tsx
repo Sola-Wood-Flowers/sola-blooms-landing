@@ -117,12 +117,14 @@ const WholesaleInfo = () => {
                     ))}
                   </ul>
                   
-                  <Button 
-                    variant={index === 1 ? "hero" : "brand"} 
-                    className="w-full"
-                  >
-                    Get Started
-                  </Button>
+                  <a href="https://calendly.com/supply-solawoodflowerswholesales/30min" target="_blank" rel="noopener noreferrer">
+                    <Button 
+                      variant={index === 1 ? "hero" : "brand"} 
+                      className="w-full"
+                    >
+                      Get Started
+                    </Button>
+                  </a>
                 </CardContent>
               </Card>
             ))}
@@ -138,12 +140,16 @@ const WholesaleInfo = () => {
             Get access to our complete wholesale catalog, pricing, and exclusive dealer resources.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="elegant" size="lg">
-              Request Wholesale Catalog
-            </Button>
-            <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              Schedule Consultation
-            </Button>
+            <a href="https://calendly.com/supply-solawoodflowerswholesales/30min" target="_blank" rel="noopener noreferrer">
+              <Button variant="elegant" size="lg">
+                Request Wholesale Catalog
+              </Button>
+            </a>
+            <a href="https://calendly.com/supply-solawoodflowerswholesales/30min" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                Schedule Consultation
+              </Button>
+            </a>
           </div>
         </div>
       </div>

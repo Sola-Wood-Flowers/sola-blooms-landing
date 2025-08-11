@@ -16,11 +16,11 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-3">
                 <Phone size={16} />
-                <span>(555) 123-4567</span>
+                <span>(801) 797-1037</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={16} />
-                <span>wholesale@solawoodflowers.com</span>
+                <span>supply@solawoodflowerswholesales.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin size={16} />

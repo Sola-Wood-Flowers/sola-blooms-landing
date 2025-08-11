@@ -35,13 +35,17 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="elegant" size="lg" className="text-lg px-8 py-4">
-              Contact Us
-              <ArrowRight size={20} />
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              Contact Us
-            </Button>
+            <a href="https://calendly.com/supply-solawoodflowerswholesales/30min" target="_blank" rel="noopener noreferrer">
+              <Button variant="elegant" size="lg" className="text-lg px-8 py-4">
+                Contact Us
+                <ArrowRight size={20} />
+              </Button>
+            </a>
+            <a href="https://calendly.com/supply-solawoodflowerswholesales/30min" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                Contact Us
+              </Button>
+            </a>
           </div>
 
           {/* Stats */}

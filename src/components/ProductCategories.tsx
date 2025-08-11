@@ -108,10 +108,12 @@ const ProductCategories = () => {
                   </div>
                 </div>
 
-                <Button variant="brand" className="w-full group">
-                  Contact Us
-                  <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <a href="https://calendly.com/supply-solawoodflowerswholesales/30min" target="_blank" rel="noopener noreferrer">
+                  <Button variant="brand" className="w-full group">
+                    Contact Us
+                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           ))}

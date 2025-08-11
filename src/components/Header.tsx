@@ -16,35 +16,21 @@ const Header = () => {
             />
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            <a href="#products" className="text-foreground hover:text-primary transition-colors">
-              Products
-            </a>
-            <a href="#wholesale" className="text-foreground hover:text-primary transition-colors">
-              Wholesale
-            </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">
-              About
-            </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors">
-              Contact
-            </a>
-          </nav>
-
           {/* Contact Info & CTA */}
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <Phone size={16} />
-              <span>(555) 123-4567</span>
+              <span>(801) 797-1037</span>
             </div>
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <Mail size={16} />
-              <span>hello@solawoodflowers.com</span>
+              <span>supply@solawoodflowerswholesales.com</span>
             </div>
-            <Button variant="hero" size="sm">
-              Get Wholesale Pricing
-            </Button>
+            <a href="https://calendly.com/supply-solawoodflowerswholesales/30min" target="_blank" rel="noopener noreferrer">
+              <Button variant="hero" size="sm">
+                Get Wholesale Pricing
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
